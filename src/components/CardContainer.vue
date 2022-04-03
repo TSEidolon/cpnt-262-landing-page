@@ -79,7 +79,7 @@ const products = ([
   --primary-color:  #D5E5E4; /* green 100*/
   --secondary-color: #050D0C; /* green 900*/
   --tertiary-color:  #235F5A; /* green 600*/
-  --quarternary-color: #173F3C; /* green 700*/
+  --quaternary-color: #173F3C; /* green 700*/
 }
 .products-area h1 {
   font-size: 3rem;
@@ -96,7 +96,8 @@ const products = ([
   padding: 1rem 1rem 0 1rem;
   gap: 1rem;
 
-  background-color: var(--quarternary-color);
+  background-color: var(--quaternary-color);
+  text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.15);
   height: 100%;
   position: relative;
 }

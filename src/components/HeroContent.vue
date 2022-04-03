@@ -15,9 +15,16 @@
 </script>
 
 <style>
+:root {
+  --primary-color:  #D5E5E4; /* green 100*/
+  --secondary-color: #050D0C; /* green 900*/
+  --tertiary-color:  #235F5A; /* green 600*/
+  --quarternary-color: #173F3C; /* green 700*/
+}
+
 .HeroContentContainer {
 background-image: url("../assets/images/snake1.jpg");
-height: 95vh;
+height: 95vh; /* */
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -41,12 +48,15 @@ width: 100%;
 }
 
 .HeroText button {
-background: "";
-border: 1px solid #000000;
+background-color: var(--tertiary-color);
+color: var(--primary-color);
+border: 1px solid black;
 box-sizing: border-box;
 
 box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
 border-radius: 6px;
+padding: 5px 20px;
+font-size: 1.7rem;
 }
 
 
@@ -58,13 +68,16 @@ border-radius: 6px;
   color: white;
   font-size: 2rem;
   padding: 1rem;
+  text-shadow: 2px 2px black;
+  transition: all 2s ease-out;
 }
 
-.HeroText button {
-  font-size: 1.7rem;
-}
+
 
 .HeroText button:hover {
-  background-color: green;
+  transform: translateY(-5%);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.4);
 }
 </style>

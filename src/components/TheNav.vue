@@ -35,13 +35,21 @@ onMounted (() => {
 </script>
 
 <style >
+:root {
+  --primary-color:  #D5E5E4; /* green 100*/
+  --secondary-color: #050D0C; /* green 900*/
+  --tertiary-color:  #235F5A; /* green 600*/
+  --quaternary-color: #173F3C; /* green 700*/
+}
+
   /* Navbar styles  */
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(26, 24, 24, 0.411);
-    color: white;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
   }
 
   .brand-title {
@@ -127,8 +135,8 @@ onMounted (() => {
   }
 
   /* Hover  */
-  .navbar-links li:hover{
-    background-color: #555;
+  .navbar-links li a:hover{
+    color: var(--secondary-color);
   }
 
 </style>
