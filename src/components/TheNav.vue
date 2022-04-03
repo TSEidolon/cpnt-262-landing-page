@@ -4,7 +4,7 @@
       <div class="brand-title">
           <img src="../assets/svgs/NavLogoDark.svg" alt="Scales Emporium Logo">
       </div>
-      <a href="#" class="toggle-button">
+      <a href="#" class="toggle-button" @click="ShowMenu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -21,17 +21,12 @@
 </template>
 
 <script setup>
-  import {onMounted} from 'vue'
 
-// Hamburger On click JS
-onMounted (() => {
-  const toggleButton = document.getElementsByClassName('toggle-button')[0];
-  const navbarLinks = document.getElementsByClassName('navbar-links')[0];
-
-  toggleButton.addEventListener('click', ()=> {
+// Hamburger On click 
+    function ShowMenu () {
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0];
     navbarLinks.classList.toggle('active')
-  })
-})
+  }
 </script>
 
 <style >
