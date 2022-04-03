@@ -34,9 +34,9 @@
     <div class="footer-items footer-items-logo">
       <h2>Connect With Us</h2>
       <div class="footer-logo-container">
-        <img src="../assets/images/fish1.jpg" alt="">
-        <img src="../assets/images/fish1.jpg" alt="">
-        <img src="../assets/images/fish1.jpg" alt="">
+        <fa :icon="['fab', 'youtube']" class="YTIcon"/>
+        <fa :icon="['fab', 'facebook']" class="FBIcon"/>
+        <fa :icon="['fab', 'twitter']" class="TWIcon"/>
       </div>
     </div>
   </div>
@@ -81,17 +81,20 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 20%;;
+  align-items: stretch;
+  width: 20%;
+  
 }
 .footer-logo-container {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  padding: 0.5rem;
 
 }
-.footer-items-logo img {
-  object-fit: contain;
-  width: 100%;
-  max-width: 20%;
+.YTIcon, .FBIcon, .TWIcon {
+height: 40px;
+  
 }
 
 @media (max-width: 800px) {

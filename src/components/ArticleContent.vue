@@ -47,7 +47,7 @@
   color: var(--secondary-color);
 }
 .article-header {
-  font-size: 2.3rem;
+  font-size: 2rem;
   /* text-decoration: underline; */
   margin-top: 3rem;
 }
@@ -56,7 +56,7 @@
 
   justify-content: space-around;
   align-items: stretch;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   padding: 1rem;
   margin: 2rem 0;
   gap: 1rem;
