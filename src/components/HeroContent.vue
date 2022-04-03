@@ -79,5 +79,6 @@ font-size: 1.7rem;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 </style>

@@ -6,7 +6,9 @@
     <div class="card-item-bottom">
       <h3 class="card-item-title"> {{props.title}}</h3>
       <p class="card-item-text">{{props.bgtext}}</p>
-      <button class="card-item-button"> {{props.button}} &rarr; </button>
+      <a href="#" target="_blank">
+        <button class="card-item-button"> {{props.button}} &rarr; </button>
+      </a>
     </div>
   </div>
 </template>
@@ -48,6 +50,9 @@ import {defineProps} from 'vue';
   gap: 1rem;
 }
 
+.card-item-bottom a {
+  text-decoration: none;
+}
 .card-item-container:hover {
   transform: translateY(-.5%);
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
@@ -91,6 +96,7 @@ import {defineProps} from 'vue';
   background-color: var(--secondary-color);
   color: var(--primary-color);
   word-spacing: 0.5rem;
+  cursor: pointer;
 
 }
 

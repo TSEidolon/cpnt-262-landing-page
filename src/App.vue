@@ -1,16 +1,20 @@
 <template>
   <div>
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 
-      <TheNav />
+      <TheNav>
+      </TheNav>
 
-      <HeroContent />
+      <HeroContent>
+      </HeroContent>
 
-      <CardContainer />
+      <CardContainer>
+      </CardContainer>
 
-      <ArticleContent />
+      <ArticleContent>
+      </ArticleContent>
 
-      <TheFooter />
+      <TheFooter>
+      </TheFooter>
 
   </div>
   
