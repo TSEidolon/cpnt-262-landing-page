@@ -57,7 +57,7 @@ const products = ([
           title: 'Lizards',
           button: 'More',
           bgtext: 'Browse all Lizards, reptile food, and supplies.',
-          src: require('../assets/images/fish1.jpg'),
+          src: require('../assets/images/lizard2.jpg'),
         },
         {
           title: 'Fishes',
@@ -69,13 +69,13 @@ const products = ([
           title: 'Insects',
           button: 'More',
           bgtext: 'Browse all Insects, insectfood, and supplies.',
-          src: require('../assets/images/fish1.jpg'),
+          src: require('../assets/images/butterfly1.jpg'),
         },
         {
           title: 'Snakes',
           button: 'More',
           bgtext: 'Browse all Snakes, snake food, and supplies.',
-          src: require('../assets/images/fish1.jpg'),
+          src: require('../assets/images/snake2.jpg'),
         }
 ])
 </script>

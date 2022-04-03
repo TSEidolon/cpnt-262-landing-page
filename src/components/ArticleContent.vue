@@ -4,12 +4,12 @@
       <h1>Founded in 1999 two friends, Terrance and Philip</h1>
     </div>
     <div class="article-content">
-      <p> &ensp; What started as a hobby morphed into a world-class retailer where  collectors, enthusiasts, and first time owners are welcome. <br> <br>
+      <p> <br> &ensp; What started as a hobby morphed into a world-class retailer where  collectors, enthusiasts, and first time owners are welcome. <br> <br>
       &ensp; Now with over 30 stores across Canada. From insects to fishes and lizards, the ScalesEmporium has what you need and what you want! 
       </p>
       <div class="article-image-container">
-        <img src="../assets/images/fish1.jpg" alt="">
-        <img src="../assets/images/fish1.jpg" alt="">
+        <img src="../assets/images/spider1.jpg" alt="">
+        <img src="../assets/images/fish2.jpg" alt="">
         <img src="../assets/images/snake1.jpg" alt="">
       </div>
     </div>
@@ -73,12 +73,19 @@
 
 .article-image-container {
   width: 30vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  
+  
   
 }
 .article-image-container img {
-  border-radius: 50%;
+  border-radius: 3rem 1rem;
   object-fit: contain;
-  width: 50%;
+  width: 100%;
+  max-width: 40%;
 }
 
 /* SVG */
@@ -110,6 +117,9 @@
   }
   .article-image-container {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
   }
   .article-image-container img {
     width: 100%;
