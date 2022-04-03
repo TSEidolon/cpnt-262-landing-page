@@ -11,22 +11,22 @@
       :button ="products[0].button"  
       />
       <CardContainerContent 
-      :title="products[0].title"
-      :bgtext ="products[0].bgtext"
-      :src ="products[0].src"
-      :button ="products[0].button"  
+      :title="products[1].title"
+      :bgtext ="products[1].bgtext"
+      :src ="products[1].src"
+      :button ="products[1].button"  
       />
       <CardContainerContent 
-      :title="products[0].title"
-      :bgtext ="products[0].bgtext"
-      :src ="products[0].src"
-      :button ="products[0].button"  
+      :title="products[2].title"
+      :bgtext ="products[2].bgtext"
+      :src ="products[2].src"
+      :button ="products[2].button"  
       />
       <CardContainerContent 
-      :title="products[0].title"
-      :bgtext ="products[0].bgtext"
-      :src ="products[0].src"
-      :button ="products[0].button"  
+      :title="products[3].title"
+      :bgtext ="products[3].bgtext"
+      :src ="products[3].src"
+      :button ="products[3].button"  
       />
     </div>
     <div class="products-area-logo">
@@ -54,21 +54,27 @@ import CardContainerContent from './CardContainerContent.vue';
 
 const products = ([
         {
-          title: 'Forest One',
+          title: 'Lizards',
           button: 'More',
-          bgtext: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur.',
+          bgtext: 'Browse all Lizards, reptile food, and supplies.',
           src: require('../assets/images/fish1.jpg'),
         },
         {
-          title: 'Forest Two',
+          title: 'Fishes',
           button: 'More',
-          bgtext: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur.',
+          bgtext: 'Browse all Fishes, fish food, and supplies.',
           src: require('../assets/images/fish1.jpg'),
         },
         {
-          title: 'Forest Three',
+          title: 'Insects',
           button: 'More',
-          bgtext: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur.',
+          bgtext: 'Browse all Insects, insectfood, and supplies.',
+          src: require('../assets/images/fish1.jpg'),
+        },
+        {
+          title: 'Snakes',
+          button: 'More',
+          bgtext: 'Browse all Snakes, snake food, and supplies.',
           src: require('../assets/images/fish1.jpg'),
         }
 ])
@@ -103,9 +109,10 @@ const products = ([
 }
  .card-container {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 1.5rem;
 border: 1rem;
+
 }
 
 .products-area-logo {

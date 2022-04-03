@@ -61,7 +61,7 @@
   .brand-title img {
     object-fit: contain;
     width: 100%;
-    max-width: 18%;
+    max-width: 20%;
   }
 
   .navbar-links {
@@ -88,7 +88,7 @@
   /* Hamburger styles  */
   .toggle-button {
     position: absolute;
-    top: 0.75rem;
+    top: 1rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -127,6 +127,9 @@
     }
     .navbar-links.active {
       display: flex;
+    }
+    .brand-title img {
+      max-width: 35%;
     }
   }
 

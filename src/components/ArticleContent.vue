@@ -10,7 +10,7 @@
       <div class="article-image-container">
         <img src="../assets/images/fish1.jpg" alt="">
         <img src="../assets/images/fish1.jpg" alt="">
-        <img src="../assets/images/fish1.jpg" alt="">
+        <img src="../assets/images/snake1.jpg" alt="">
       </div>
     </div>
     <div class="custom-shape-divider-bottom-1648952350">

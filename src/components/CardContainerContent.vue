@@ -49,6 +49,9 @@ import {defineProps} from 'vue';
   padding: 1rem;
   gap: 1rem;
 }
+.card-item-top {
+  height: 80%;
+}
 
 .card-item-bottom a {
   text-decoration: none;
@@ -71,6 +74,7 @@ import {defineProps} from 'vue';
   color: var(--secondary-color);
   text-align: center;
   margin: 1rem;
+  padding: 2rem 0;
 }
 
 .card-item-title {

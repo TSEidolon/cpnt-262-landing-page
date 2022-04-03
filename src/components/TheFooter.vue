@@ -34,9 +34,9 @@
     <div class="footer-items footer-items-logo">
       <h2>Connect With Us</h2>
       <div class="footer-logo-container">
-        <fa :icon="['fab', 'youtube']" class="YTIcon"/>
-        <fa :icon="['fab', 'facebook']" class="FBIcon"/>
-        <fa :icon="['fab', 'twitter']" class="TWIcon"/>
+        <a href="" target="_blank" > <fa :icon="['fab', 'youtube']" class="YTIcon"/> </a>
+        <a href="" target="_blank" > <fa :icon="['fab', 'facebook']" class="FBIcon"/> </a>
+        <a href="" target="_blank" > <fa :icon="['fab', 'twitter']" class="TWIcon"/> </a>
       </div>
     </div>
   </div>
@@ -90,11 +90,24 @@
   justify-content: space-around;
   width: 100%;
   padding: 0.5rem;
-
+  gap: 0.5rem;
 }
+
 .YTIcon, .FBIcon, .TWIcon {
 height: 40px;
-  
+color: var(--primary-color)
+
+
+}
+
+.YTIcon:hover {
+  color: red;
+}
+.FBIcon:hover {
+  color: rgb(0, 81, 255);
+}
+.TWIcon:hover {
+  color: lightskyblue;
 }
 
 @media (max-width: 800px) {
