@@ -27,9 +27,9 @@ import {defineProps} from 'vue';
 
 <style >
 :root {
-  --primary-color:  white;
-  --secondary-color: #0b132b;
-  --tertiary-color:  #598392;
+  --primary-color:  #D5E5E4; /* green 100*/
+  --secondary-color: #050D0C; /* green 900*/
+  --tertiary-color:  #235F5A; /* green 600*/
 }
   .card-item-container {
    display: flex;
@@ -54,7 +54,7 @@ import {defineProps} from 'vue';
 }
 
 .card-item-image {
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
   height: 100%;
   border-top-left-radius: 10px ;

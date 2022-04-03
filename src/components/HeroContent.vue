@@ -17,7 +17,7 @@
 <style>
 .HeroContentContainer {
 background-image: url("../assets/images/snake1.jpg");
-height: 90vh;
+height: 95vh;
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -30,6 +30,14 @@ width: 100%;
 .HeroText {
   margin-left: 20%;
   width: 25%;
+}
+
+@media (max-width: 800px) {
+  .HeroText {
+    width: 70%;
+    margin: 10%;
+    padding: 10%;
+  }
 }
 
 .HeroText button {

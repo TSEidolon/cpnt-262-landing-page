@@ -45,13 +45,24 @@ onMounted (() => {
   }
 
   .brand-title {
-    padding: 0.5rem;
+    display: block;
+    padding-top: 0.5rem;
     object-fit: contain;
-    width: 100%;
-    max-width: 20%;
-    margin-left: 10%;
+    width: 90%;
+    min-width: 20%;
+    margin: 5px 0 5px 20px;
+
   }
 
+  .brand-title img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 18%;
+  }
+
+  .navbar-links {
+    margin-right: 2%;
+  }
   .navbar-links ul{
     margin: 0;
     padding: 0;
@@ -73,13 +84,14 @@ onMounted (() => {
   /* Hamburger styles  */
   .toggle-button {
     position: absolute;
-    top: 0.5rem;
+    top: 0.75rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    
   }
   .toggle-button .bar {
     height: 3px;
