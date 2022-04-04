@@ -1,4 +1,5 @@
 # CPNT-262 Assignment 2 - Vue/Nuxt Landing Page
+## By: Edgar Caballero
 
 Live Netlify Site:  [ScalesEmporium](https://majestic-horse-ca27b9.netlify.app/)
 
