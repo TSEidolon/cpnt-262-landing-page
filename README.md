@@ -1,6 +1,6 @@
 # CPNT-262 Assignment 2 - Vue/Nuxt Landing Page
 
-Live Netlify Site:  []()
+Live Netlify Site:  [ScalesEmporium](https://majestic-horse-ca27b9.netlify.app/)
 
 Troubleshooting: 
  - Made use of the addEventListener JS function for the reposponsive navigation menu.
@@ -26,7 +26,9 @@ function ShowMenu () {
   }
 </script>
 ```
- 
+- Attempted to add Font Awesome Icons to Vue by following the "[Font Awesome with Vue JS Website](https://fontawesome.com/docs/web/use-with/vue/)"
+ - According to [Suboptimal Engineer: How to Add Font Awesome Icons in Vue 3](https://www.youtube.com/watch?v=MoDIpTuRWfM&t=704s), apparently `npm i --save @fortawesome/vue-fontawesome@latest` does not work for vue3 and I had to use `npm i --save @fortawesome/vue-fontawesome@prerelease` instead.
+
 
 
 ### Attributions:
