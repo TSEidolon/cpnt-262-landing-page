@@ -1,9 +1,12 @@
 # CPNT-262 Assignment 2 - Vue/Nuxt Landing Page
 ## By: Edgar Caballero
 
-Live Netlify Site:  [ScalesEmporium](https://majestic-horse-ca27b9.netlify.app/)
+### Links:
+Live Netlify Site:  [ScalesEmporium](https://majestic-horse-ca27b9.netlify.app/) 
 
-Troubleshooting: 
+Figma Mockop File from DSGN-270: [Mockup](https://www.figma.com/file/M6tivU7JNoxoUDpPX13o5F/CPNT-262-LandingPage-Mockup?node-id=8%3A2)
+
+### Troubleshooting: 
  - Made use of the addEventListener JS function for the reposponsive navigation menu.
  - Since I was using Vue, I changed the `addEventListener` to a `v-on` for easier and more concise vue components
 
